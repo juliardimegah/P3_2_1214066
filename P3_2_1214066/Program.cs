@@ -65,9 +65,9 @@ namespace P3_2_1214066
 
                     default: Console.WriteLine("Input tidak valid"); break;
                 }
-                Console.Write("Apakan anda ingin mengulangi lagi? (Y/N): ");
+                Console.Write("Apakan anda ingin mengulangi lagi? (Y/T): ");
                 var input = Console.ReadLine();
-                if (input == "N")
+                if (input == "T" || input == "t")
                 {
                     Console.WriteLine("Terimakasih telah menggunakan aplikasi ini");
                     start = false; 
