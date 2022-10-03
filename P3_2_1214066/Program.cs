@@ -67,9 +67,13 @@ namespace P3_2_1214066
                 }
                 Console.Write("Apakan anda ingin mengulangi lagi? (Y/N): ");
                 var input = Console.ReadLine();
-                if (input == "N" || input == "n")
+                if (input == "N")
+                {
                     Console.WriteLine("Terimakasih telah menggunakan aplikasi ini");
-                    start = false;
+                    start = false; 
+                } else {
+                    start = true;
+                }
             }
         }
     }
